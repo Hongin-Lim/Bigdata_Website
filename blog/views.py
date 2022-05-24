@@ -37,7 +37,7 @@ class PostUpdate(LoginRequiredMixin, UpdateView):
     model = Post
     fields = ['title', 'hook_text', 'content', 'head_image', 'file_upload', 'category']
 
-    template_name = 'blog/post_update_form.html'
+    template_name = 'blog/post_update.html'
 
     def get_context_data(self, **kwargs):
         context = super(PostUpdate, self).get_context_data()

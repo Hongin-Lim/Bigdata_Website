@@ -23,8 +23,8 @@ class Category(models.Model):
     def get_absolute_url(self):
         return f'/blog/category/{self.slug}/'
 
-    # class Meta:
-    #     verbose_name_plural = 'categories'
+    class Meta:
+        verbose_name_plural = 'categories'
 
 class Post(models.Model):
     title = models.CharField(max_length=30)
@@ -51,6 +51,12 @@ class Post(models.Model):
 
     def get_file_ext(self):
         return self.get_file_name().split('.')[-1]
+
+    def get_avatar_url(self):
+        if self.author.socialaccount_set.exists():
+            return self.author.socialaccount_set.first().get_avatar_url()
+        else:
+            return f'https://doitdjango.com/avatar/id/1017/bf4dffb71b05775e/svg/{ self.author.email }'
 
 class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)

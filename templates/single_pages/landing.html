@@ -3,10 +3,11 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Do It Django</title>
+    <title>VeryMarket_BigData</title>
 
     <link rel="stylesheet" href="{% static 'blog/bootstrap/bootstrap.min.css' %}" media="screen">
     <link rel="stylesheet" href="{% static 'single_pages/css/landing.css' %}" media="screen">
+    <script src="https://kit.fontawesome.com/726bbd6862.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -17,8 +18,8 @@
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-6 text-light">
-                <h1 class="mt-5">빅데이터 about Very-Market</h1>
-                <p>베리마켓에 판매되고 있는 상품들의 시세와 사용정보들을 빅데이터로 확인해보세요.</p>
+                <h1 class="mt-5">빅데이터 About Very-Market</h1>
+                <p>베리마켓에 판매되고 있는 상품들의 시세와<br> 각종 데이터 정보들을 빅데이터로 확인해보세요.</p>
             </div>
 
             <div class="col-lg-5 mt-5">
@@ -30,8 +31,8 @@
                             <span class="badge badge-pill badge-light float-right">
                                 <img class="mr-1 rounded-circle" width="20px" src="{{ post.get_avatar_url }}" alt="{{ post.author }}">
                                 {{ post.author.username }}
-                                &nbsp;
-                                &nbsp;
+                                &nbsp;&nbsp;
+                                &nbsp;&nbsp;
                                 {{ post.created_at }}
                            </span>
                         </div>
