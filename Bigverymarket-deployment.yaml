@@ -16,7 +16,7 @@ spec:
         - name: django-nginx2
           image: lhi90/verymarket-bigdata:0.1
           ports:
-            - containerPort: 8001
+            - containerPort: 8000
           imagePullPolicy: Always
           env:
             - name: DATE
