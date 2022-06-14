@@ -1,4 +1,10 @@
-# :watermelon: 빅데이터 활용 데이터 시각화 개발 프로젝트(BigVerymarket) 
+# :watermelon: 빅데이터 활용 데이터 시각화 개발 프로젝트(BigVerymarket) :watermelon:
+<br>
+
+## :clipboard: 시연영상
+
+### :link: 판매자를 위한 빅데이터 정보 제공 서비스 '빅베리마켓' 시연영상(GIF)
+![빅베리마켓시연영상](https://user-images.githubusercontent.com/96184680/173600921-9ba14f6c-890e-4007-bf39-f83649be8bd8.gif)
 
 ## :clipboard: 부모 깃
 * Verymarket_BackEnd_Git =  https://github.com/Hongin-Lim/VeryMarket
