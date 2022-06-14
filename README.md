@@ -7,7 +7,7 @@
 * Ubuntu
 * PyCharm
 * Django
-* AWS
+* AWS(EC2 RDS S3)
 * Kubernetes
 * Jenkins
 * GitHub
@@ -16,8 +16,8 @@
 ![프로그램 로고](https://user-images.githubusercontent.com/97941148/172524936-14e8577f-ce69-46b7-abfd-834afb5aca57.png)
 * * * 
 ### 백엔드
-* Django
 * Python
+* Django
 * Django ORM
 
 ### DB
@@ -61,6 +61,8 @@
 * REST API
 * AJAX
 * CI/CD
+* Real-Time Crawling
+* Real-Time Storage
 * Realtime LogData 분석 및 시각화
 * Realtime 공공API 분석 및 시각화
 * AWS 클라우드 서비스
@@ -92,8 +94,8 @@
 ![CI__CD_v2_1](https://user-images.githubusercontent.com/96184680/173300690-e17e9f76-8695-4a82-b183-057e16170f83.png)
 
 ## :link: 소비자, 판매자 입장 전체 흐름도
-#### 소비자 서비스(VeryMarket)
-#### 판매자 서비스(Big VeryMarket)
+#### └ 소비자 서비스(VeryMarket)
+#### └ 판매자 서비스(Big VeryMarket)
 ![Data_PipeLine](https://user-images.githubusercontent.com/96184680/173300693-c8b17182-ad15-4569-820b-5899cf92a0ac.png)
 
 ## :link: 판매자 입장 흐름도
