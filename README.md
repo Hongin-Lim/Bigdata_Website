@@ -1,4 +1,4 @@
-# 🍓 빅데이터 활용 데이터 시각화 개발 프로젝트(BigVerymarket) 
+# :watermelon: 빅데이터 활용 데이터 시각화 개발 프로젝트(BigVerymarket) 
 
 ## :clipboard: 부모 깃
 * Verymarket_BackEnd_Git =  https://github.com/Hongin-Lim/VeryMarket
