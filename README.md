@@ -1,65 +1,105 @@
-# 🍓 빅데이터 활용 과일 팀구매 쇼핑몰 개발 프로젝트(Bigdata_Webvsite) 
-## VeryMarket_쇼핑몰과 연동할 홈페이지입니다.
+# 🍓 빅데이터 활용 데이터 시각화 개발 프로젝트(BigVerymarket) 
 
-## :clipboard: 개발환경
-* Linux
+## :clipboard: 부모 깃
+* Verymarket_BackEnd_Git =  https://github.com/Hongin-Lim/VeryMarket
+
+## :clipboard: 개발환경 및 도구
+* Ubuntu
 * PyCharm
 * Django
+* AWS
 * Kubernetes
 * Jenkins
 * GitHub
 
 ## :clipboard: 사용 기술
+![프로그램 로고](https://user-images.githubusercontent.com/97941148/172524936-14e8577f-ce69-46b7-abfd-834afb5aca57.png)
+* * * 
 ### 백엔드
-#### <img src="https://img.shields.io/badge/Django-00C853?style=flat-square&logo=Django&logoColor=white"/>
-* <img src="https://img.shields.io/badge/Python-673AB7?style=flat-square&logo=Python&logoColor=white"/>
+* Django
+* Python
 * Django ORM
-* 
 
-#### <img src="https://img.shields.io/badge/DB-212121?style=flat-square&logo=Database&logoColor=white"/>
-* <img src="https://img.shields.io/badge/MySQL-29B6F6?style=flat-square&logo=Mysql&logoColor=white"/>
+### DB
+* MySQL
 
-#### <img src="https://img.shields.io/badge/AWS-FFEE58?style=flat-square&logo=Amazon AWS&logoColor=white"/>
-* <img src="https://img.shields.io/badge/EC2-FFEE58?style=flat-square&logo=EC2&logoColor=white"/>
-* 
+### AWS
+* EC2
+* RDS
+* S3
 
 ### 프론트엔드
-<img alt="Html" src ="https://img.shields.io/badge/HTML-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <img alt="Css" src ="https://img.shields.io/badge/CSS-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScriipt-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=black"/>
+* HTML
+* CSS
+* JavaScript
 
 ### 플랫폼
-#### <img alt="Kubernetes" src ="https://img.shields.io/badge/Kubernetes-42A5F5?&style=for-the-badge&logo=Kubernetes&logoColor=white"/> <img alt="ELK" src ="https://img.shields.io/badge/ELK STACK-FFD54F?&style=for-the-badge&logo=Elastic Stack&logoColor=white"/> <img alt="Kafka" src ="https://img.shields.io/badge/Kafka-424242?&style=for-the-badge&logo=Apache Kafka&logoColor=white"/> <img alt="Spark" src ="https://img.shields.io/badge/Spark-F44336?&style=for-the-badge&logo=Apache Spark&logoColor=white"/>
+* Kubernetes
+* Docker
+* ELK Stack
+* Kafka
+* Spark
+
+### CI / CD
+* Jenkins
+
+### 배포
+* Nginx
+* Gunicorn
 
 ## :clipboard: 로그 분석 도구
 * ELK Stack
   * Elasticsearch, Logstash, Kibana
 * Spark
 
+## :link: 서비스 아키텍쳐
+![구성도](https://user-images.githubusercontent.com/97941148/172517980-6d8aafb9-a214-4594-9170-fb07090db1d7.png)
+* * * 
+
 ## :clipboard: 주요 키워드
 * HTTP 통신
 * REST API
-* 
+* AJAX
+* CI/CD
+* Realtime LogData 분석 및 시각화
+* Realtime 공공API 분석 및 시각화
+* AWS 클라우드 서비스
+* Kubernetes
 
 ## :clipboard: 구현 기능
-### 백엔드
+# Back_End ↓
 
-### 프론트엔드
+## :link: 판매자를 위한 빅데이터 정보 제공 서비스 '빅베리마켓'
 
-### 플랫폼
+▶게시글 - 게시글 CRUD 게시글list, 댓글 CRUD, 페이징 구현
 
-## :factory: 시스템 구조
-* 
+▶메인페이지, 상세페이지, 소개페이지, 데이터대시보드
 
-## :link: UI 설계도
-* [-UI.pdf](https://docs.google.com/viewer?url=https://github.com/Hongin-Lim/Bigdata_Project/blob/main/files/-UI.pdf?raw=True)
+▶카테고리 - 카테고리 별 분류 구현
 
-## :link: API 설계도
-* [API.xlsx](https://docs.google.com/viewer?url=https://github.com/Hongin-Lim/Bigdata_Project/blob/main/files/API.xlsx?raw=True)
+▶검색 - 검색 서비스 구현
 
-## :link: ERD 설계
-*![ERD](https://user-images.githubusercontent.com/97941148/166879977-4f215cd5-3dc9-4b57-a97f-1969e5937569.png)
+▶회원가입, 구글로그인, 로그아웃 등 회원관리 서비스 구현
 
+▶이미지&파일 업로드 및 다운로드 기능 구현
+
+▶사용자권한 관리(일반유저, 중간관리자, 최종관리자) 구현
+
+▶사용자 아바타 서비스 구현
+* * * 
+
+## :link: CI/CD Jenkins 개발자 입장 흐름도
+![CI__CD_v2_1](https://user-images.githubusercontent.com/96184680/173300690-e17e9f76-8695-4a82-b183-057e16170f83.png)
+
+## :link: 소비자, 판매자 입장 전체 흐름도
+#### 소비자 서비스(VeryMarket)
+#### 판매자 서비스(Big VeryMarket)
+![Data_PipeLine](https://user-images.githubusercontent.com/96184680/173300693-c8b17182-ad15-4569-820b-5899cf92a0ac.png)
+
+## :link: 판매자 입장 흐름도
+![Data_PipeLine_Log_3](https://user-images.githubusercontent.com/96184680/173300703-480b7aea-e3b3-4d59-a159-a3d9854fae9a.png)
+
+* * * 
 ## :link: WBS
-* [WBS.xlsx](https://docs.google.com/viewer?url=https://github.com/Hongin-Lim/Bigdata_Project/blob/main/files/WBS.xlsx?raw=True)
+* [WBS.xlsx](https://docs.google.com/viewer?url=https://github.com/Hongin-Lim/Bigdata_Project/blob/main/files/WBS(0603).xlsx?raw=True)
 
-## :link: 서비스 아키텍쳐
-![image](https://user-images.githubusercontent.com/96184680/168993141-646987f3-9e21-426a-ab84-55c6395e5a69.png)
